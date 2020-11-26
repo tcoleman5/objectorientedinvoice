@@ -28,9 +28,9 @@ public class Main {
         s.setPrice(23.99);
         products.add(I);
 
-        I = new inventory();
-        I.setProduct("Bison Bumpersticker");
-        I.setPrice(4.99);
+        s = new inventory();
+        s.setProduct("Bison Bumpersticker");
+        s.setPrice(4.99);
         products.add(I);
         
         String answer = "";
@@ -42,7 +42,7 @@ public class Main {
             answer = input.nextLine();
 
             if (answer.equals("1")) {
-                System.out.println("What do you want to buy?");
+                System.out.println("What item would you like to purchase?");
                 item = input.nextLine();
                 }
                 
